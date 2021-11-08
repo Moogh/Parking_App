@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="icon" href="Imagenes/park.png" type="image/png" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div id="cabecera">
+            <table>
+                <tr>
+                    <td><img src="Imagenes/P.jpg" type="image/png" heigth="120" width="120" alt="Mi Parking"/></td>
+                    <td><h1>ParkingApp</h1></td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="Registro_cliente.html">Registro Clientes</a></li>
+            <li><a href="Registro_Ingreso.html">Registrar Ingreso</a></li>
+            <li><a href="Registro_Salida.html">Registrar Salida</a></li>
+            <li><a href="Balance_Mensual.html">Balance Mensual</a></li>
+            <li><a href="Descargar_Recibo.html">Descargar Recibo</a></li>
+            <li><a href="Registro_Empleado.html">Registrar Empleados</a></li>
+            <li><a href="Reporte_Clientes.html">Reporte Clientes</a></li>
+
+        </ul>
+
+        <div id="contenido">
+            <h1>Balance Mensual</h1>
+            <form action="/action_page.php">
+              <label for="Mes ">Mes</label>
+              <select id="Mes" name="Mes" required>
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+              </select>
+
+              <label for="Año">Año</label>
+              <input type="text" id="Año" name="Año" placeholder="Año" required>
+
+              <input type="submit" value="Generar">
+
+
+              
+            </form>
+        </div>
+
+
+
+    </body>
+
+</html>
